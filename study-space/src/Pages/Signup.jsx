@@ -22,7 +22,7 @@ const signup = () => {
                     <input type="password" className="password detailButton" placeholder='Password'/>
                     <input type="password" className="password detailButton" placeholder='Confirm Password'/>
                 </div>
-                <button className="signupButton">Signup</button>
+                <button className="signupButton" onClick={() => window.location.href = "/main"}>Signup</button>
                 <div className="Acc">
                     <p>Already ave an account?</p>
                     <a href="/login">Login</a>

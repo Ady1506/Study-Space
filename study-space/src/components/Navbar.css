@@ -30,7 +30,7 @@
 .signUp{
     all: unset;
     background-color: #ffffff;
-    color: #0E76C0;
+    color: var(--main-color);
     font-weight: 600;
     padding: 8px 5px;
     border-radius: 5px;
@@ -38,7 +38,7 @@
     transition: all 0.3s ease;
 }
 .signUp:hover{
-    background-color: #0E76C0;
+    background-color: var(--main-color);
     color: #ffffff;
 }
 .login:hover{

@@ -29,7 +29,7 @@ const Login = () => {
                         <a href="/forget">Recovery Password</a>
                     </div>
                 </div>
-                <button className="loginButton">Login</button>
+                <button className="loginButton" onClick={() => window.location.href = "/main"}>Login</button>
                 <div className="noAcc">
                     <p>Don't have an account?</p>
                     <a href="/signup">Signup</a>

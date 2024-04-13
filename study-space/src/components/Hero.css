@@ -52,7 +52,7 @@
     object-fit: contain;
     justify-content: center;
     align-items: center;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .signup{
@@ -79,13 +79,14 @@
     border-radius: 5px;
     outline: none;
     width: 25%;
-    background-color: #60BC4F;
-    color: white;
+    background-color: #c5c5ff;
+    color: black;
     font-weight: 480;
     cursor: pointer;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
 }
 .signup a:hover{
-    background-color: #4A9D3B;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
 }
