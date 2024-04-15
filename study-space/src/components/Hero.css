@@ -79,7 +79,7 @@
     border-radius: 5px;
     outline: none;
     width: 25%;
-    background-color: #c5c5ff;
+    background-color: #e2e2ff;
     color: black;
     font-weight: 480;
     cursor: pointer;
@@ -87,6 +87,6 @@
     transition: all 0.3s ease;
 }
 .signup a:hover{
-    transform: scale(1.01);
+    transform: scale(1.02);
     transition: all 0.3s ease;
 }

@@ -10,7 +10,7 @@
     
 } */
 .forgetPage{
-    background-color: #fff;
+    background-color: var(--main-text);
     color: black;
     display: flex;
     height: 100vh;
@@ -134,7 +134,7 @@
 .mailButton{
     margin-top: 2rem;
     background-color: var(--main-color);
-    color: white;
+    color: var(--main-text);
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 5px;
@@ -145,7 +145,7 @@
 }
 .mailButton:hover{
     background-color: var(--main-color);
-    color: white;
+    color: var(--main-text);
     transform: scale(1.05);
     transition: all 0.3s;
 }

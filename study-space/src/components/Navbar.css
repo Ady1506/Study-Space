@@ -29,7 +29,7 @@
 }
 .signUp{
     all: unset;
-    background-color: #ffffff;
+    background-color: var(--main-text);
     color: var(--main-color);
     font-weight: 600;
     padding: 8px 5px;
@@ -39,7 +39,7 @@
 }
 .signUp:hover{
     background-color: var(--main-color);
-    color: #ffffff;
+    color: var(--main-text);
 }
 .login:hover{
     text-decoration: underline;
