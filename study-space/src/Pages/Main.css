@@ -1,18 +1,17 @@
 
 .main-page{
-    background: var(--main-color);
+    background: #8855F4;
     height: 100vh;
 }
 .main-page-body{
-    height: calc(100vh - 13%);    
+    height: 100vh;    
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 .main-body{
-    background: var(--card);
+    background: #fff;
     width: 100%;
-    border-top-left-radius: 20px;
 }
 /* .nav{
     background-color: var(--main-color);

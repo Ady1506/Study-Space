@@ -4,7 +4,6 @@ const signup = () => {
   return (
     <div className='signupPage'>
         <div className="left">
-            <img src="loginpage.jpg" alt="" />
 
         </div>
         <div className="right">

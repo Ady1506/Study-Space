@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className='loginPage'>
         <div className="left">
-            <img src="loginpage.jpg" alt="" />
+            
 
         </div>
         <div className="right">

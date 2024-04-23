@@ -4,14 +4,14 @@ const Hero = () => {
   return (
     <div className='main'>
         <div className='info'>
-            <div className='left'>
+            <div className='left-main'>
                 <h2>Study Space lets you work more collaboratively and get more done.</h2>
                 <p>
                     Study Space's boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible, and rewarding way.
                 </p>
             </div>
-            <div className='right'>
-                <img src='5340737.jpg'/>
+            <div className='right-main'>
+                <img src='mainpage.png'/>
             </div>
         </div>
         <div className='signup'>

@@ -3,6 +3,9 @@ import './Sidebar.css'
 const Sidebar = () => {
   return (
     <div className="side">
+            <div className="side-logo">
+                <div className="site-name">Study Space</div>
+            </div>
             <div className="side-menu">
                 <div className="side-menu-item meet">Meet</div>
                 <div className="side-menu-item notes">Notes</div>

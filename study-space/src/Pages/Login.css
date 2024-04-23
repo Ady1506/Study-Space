@@ -10,7 +10,7 @@
     
 } */
 .loginPage{
-    background-color: var(--main-text);
+    background-color: #fff;
     color: black;
     display: flex;
     height: 100vh;
@@ -18,21 +18,17 @@
 }
 .left{
     width: 50%;
-    background-color: var(--main-color);
-    padding: 5%;
+    background-color: #8855F4;
+    background-image: url('../../public/login.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* padding: 5%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
-.left img{
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 80%;
-    opacity: 0.9;
-    object-fit: cover;
 
-}
 .right{
     width: 50%;
     display: flex;
@@ -125,7 +121,7 @@
 }
 .forgot a{
     all: unset;
-    color: var(--main-color);
+    color: #8855F4;
     font-weight: 480;
     opacity: 1.2;
     transition: all 0.3s ease;
@@ -136,8 +132,8 @@
 }
 .loginButton{
     margin-top: 2rem;
-    background-color: var(--main-color);
-    color: var(--main-text);
+    background-color: #8855F4;
+    color:#fff;
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 5px;
@@ -147,8 +143,8 @@
     transition: all 0.3s;
 }
 .loginButton:hover{
-    background-color: var(--main-color);
-    color: var(--main-text);
+    background-color: #8855F4;
+    color:#fff;
     transform: scale(1.05);
     transition: all 0.3s;
 }
@@ -161,7 +157,7 @@
 }
 .noAcc a{
     all: unset;
-    color: var(--main-color);
+    color: #8855F4;
     font-weight: 480;
     opacity: 1.2;
     transition: all 0.3s ease;

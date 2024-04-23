@@ -1,14 +1,15 @@
 .nav{
-    background-color: var(--main-color);
+    background-color: #fff;
+    border-bottom: 2px solid lightgray;
+    color: #8855F4;
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     height: 13%;
     padding: 1rem 4rem 1rem 2rem;
     align-items: center;
 }
-.navleft{
+.name{
     font-size: 2rem;
-}
-.navright{
-    font-size: 1.5rem;
+    font-weight: 500;
 }

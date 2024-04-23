@@ -3,11 +3,8 @@ import './Mainnav.css'
 const Mainnav = () => {
   return (
     <div className="nav">
-            <div className="navleft">
-            Study Space
-            </div>
-            <div className="navright">
-                <div className="profile">Aadya</div>
+            <div className="name">
+              Aadya
             </div>
     </div>
   )

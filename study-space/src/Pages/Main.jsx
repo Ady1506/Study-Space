@@ -6,10 +6,11 @@ import Maincards from "../components/Maincards"
 const Main = () => {
   return (
     <div className='main-page'>
-        <Mainnav />
         <div className='main-page-body'>
           <Side />
+          
           <div className="main-body">
+            <Mainnav />
             <Maincards/>
           </div>
         </div>

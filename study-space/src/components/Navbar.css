@@ -11,7 +11,7 @@
     font-size: 1.1rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    border-bottom: 2px solid lightgray;
 }
 .studySpace{
     font-size: 1.5rem;
@@ -29,17 +29,17 @@
 }
 .signUp{
     all: unset;
-    background-color: var(--main-text);
-    color: var(--main-color);
+    background-color: #fff;
+    color: #8855F4;
     font-weight: 600;
-    padding: 8px 5px;
+    padding: 8px 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .signUp:hover{
-    background-color: var(--main-color);
-    color: var(--main-text);
+    background-color: #8855F4;
+    color: #fff;
 }
 .login:hover{
     text-decoration: underline;
